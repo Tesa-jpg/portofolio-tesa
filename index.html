@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tesa Nurhadiyanti — Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">TN<span class="logo-dot">.</span></a>
+    <div class="nav-links">
+      <a href="#about">Tentang</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Proyek</a>
+      <a href="#experience">Pengalaman</a>
+      <a href="#contact">Kontak</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema">
+      <span id="themeIcon">☾</span>
+    </button>
+  </div>
+</nav>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <div class="profile-photo-wrap">
+        <img src="profile.jpg" alt="Foto profil Tesa Nurhadiyanti" class="profile-photo">
+      </div>
+      <div class="hero-eyebrow">
+        <span class="anchor-dot"></span>
+        <span>mahasiswa rekayasa perangkat lunak · semester 6</span>
+      </div>
+      <h1 class="hero-title">
+        Tesa<br>Nurhadiyanti
+      </h1>
+      <p class="hero-subtitle">
+        Merancang antarmuka di Figma, lalu menghidupkannya jadi aplikasi nyata dengan Flutter &amp; Firebase.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          Lihat proyek <span aria-hidden="true">↓</span>
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          Hubungi saya
+        </a>
+      </div>
+    </div>
+    <div class="hero-tags">
+      <span class="float-tag tag-1"><span aria-hidden="true">⚡</span> Flutter</span>
+      <span class="float-tag tag-2"><span aria-hidden="true">🔥</span> Firebase</span>
+      <span class="float-tag tag-3"><span aria-hidden="true">✎</span> Figma</span>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-inner">
+      <p class="section-label">01 · Tentang</p>
+      <p class="about-text">
+        Saya mahasiswa Rekayasa Perangkat Lunak semester 6 yang sedang mendalami pengembangan aplikasi mobile menggunakan <span class="hl">Flutter</span> dan <span class="hl">Firebase</span>. Saya juga memiliki ketertarikan di bidang UI/UX design dan terbiasa merancang antarmuka aplikasi menggunakan <span class="hl">Figma</span> sebelum masuk ke tahap development.
+      </p>
+      <p class="about-text">
+        Saat ini saya mengembangkan <strong>SIMBA</strong> — Sistem Informasi dan Monitoring Beasiswa — secara mandiri, dari proses desain hingga coding. Saya juga memiliki pengalaman berorganisasi sebagai Bendahara Himpunan Mahasiswa SOENUGA.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-inner">
+      <p class="section-label">02 · Skills</p>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <span class="skill-icon" aria-hidden="true">⚡</span>
+          <h3>Mobile Development</h3>
+          <div class="chip-row">
+            <span class="chip chip-purple">Flutter</span>
+            <span class="chip chip-purple">Dart</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon" aria-hidden="true">🔥</span>
+          <h3>Backend &amp; Database</h3>
+          <div class="chip-row">
+            <span class="chip chip-teal">Firebase</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon" aria-hidden="true">✎</span>
+          <h3>UI/UX Design</h3>
+          <div class="chip-row">
+            <span class="chip chip-coral">Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-card skill-card-wide">
+          <span class="skill-icon" aria-hidden="true">{ }</span>
+          <h3>Programming &amp; Development</h3>
+          <p class="skill-desc">Mengembangkan aplikasi dengan bantuan AI coding tools untuk mengakselerasi proses development, sambil tetap mempelajari dan memperbaiki kode secara langsung saat menemukan error.</p>
+          <div class="chip-row">
+            <span class="chip chip-purple">Dart</span>
+            <span class="chip chip-purple">AI-Assisted Coding</span>
+            <span class="chip chip-purple">Debugging</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon" aria-hidden="true">⚙</span>
+          <h3>Tools</h3>
+          <div class="chip-row">
+            <span class="chip chip-teal">VS Code</span>
+            <span class="chip chip-teal">Git</span>
+            <span class="chip chip-teal">GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon" aria-hidden="true">👥</span>
+          <h3>Soft Skills</h3>
+          <div class="chip-row">
+            <span class="chip chip-coral">Manajemen organisasi</span>
+            <span class="chip chip-coral">Pengelolaan keuangan</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-inner">
+      <p class="section-label">03 · Proyek</p>
+
+      <div class="project-card">
+        <div class="project-media">
+          <div class="screenshot-grid">
+            <figure class="screenshot-figure">
+              <img src="simba-login.png" alt="Halaman Login SIMBA" class="screenshot-img">
+              <figcaption>Login</figcaption>
+            </figure>
+            <figure class="screenshot-figure">
+              <img src="simba-beranda.png" alt="Halaman Beranda SIMBA" class="screenshot-img">
+              <figcaption>Beranda</figcaption>
+            </figure>
+            <figure class="screenshot-figure">
+              <img src="simba-beasiswa.png" alt="Halaman Daftar Beasiswa SIMBA" class="screenshot-img">
+              <figcaption>Daftar Beasiswa</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-status">
+            <span class="status-dot"></span> Sedang dikembangkan
+          </div>
+          <h3 class="project-title">SIMBA</h3>
+          <p class="project-subtitle">Sistem Informasi dan Monitoring Beasiswa</p>
+          <p class="project-desc">
+            Aplikasi yang membantu mahasiswa memantau status pengajuan dan informasi beasiswa secara digital, menggantikan proses manual yang kurang efisien. Dikembangkan secara mandiri, mulai dari riset dan desain UI/UX di Figma hingga implementasi menggunakan Flutter dengan Firebase sebagai backend.
+          </p>
+
+          <ul class="project-progress">
+            <li class="done"><span aria-hidden="true">✓</span> Desain UI/UX lengkap di Figma</li>
+            <li class="done"><span aria-hidden="true">✓</span> Modul mahasiswa terintegrasi Firebase</li>
+            <li class="pending"><span aria-hidden="true">◷</span> Modul admin — dalam pengembangan</li>
+          </ul>
+
+          <div class="chip-row">
+            <span class="chip chip-mono">Flutter</span>
+            <span class="chip chip-mono">Firebase</span>
+            <span class="chip chip-mono">Figma</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://www.figma.com/design/qHTccJijRCUTm9AJToI1bV/SIMBA--Sistem-Informasi-Beasiswa-" target="_blank" rel="noopener" class="link-btn">
+              <span aria-hidden="true">✎</span> Lihat desain
+            </a>
+            <a href="https://github.com/Tesa-jpg/simba-sistem-informasi-beasiswa" target="_blank" rel="noopener" class="link-btn">
+              <span aria-hidden="true">&lt;/&gt;</span> Lihat kode
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-media">
+          <div class="screenshot-grid">
+            <figure class="screenshot-figure">
+              <img src="tsvestiq-login.png" alt="Halaman Login TSVestiq" class="screenshot-img">
+              <figcaption>Login</figcaption>
+            </figure>
+            <figure class="screenshot-figure">
+              <img src="tsvestiq-home.png" alt="Halaman Dashboard TSVestiq" class="screenshot-img">
+              <figcaption>Dashboard</figcaption>
+            </figure>
+            <figure class="screenshot-figure">
+              <img src="tsvestiq-checkout.png" alt="Halaman Checkout TSVestiq" class="screenshot-img">
+              <figcaption>Checkout</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-status project-status-design">
+            <span class="status-dot status-dot-design"></span> Proyek desain
+          </div>
+          <h3 class="project-title">TSVestiq</h3>
+          <p class="project-subtitle">UI/UX Design — Aplikasi Fashion E-Commerce</p>
+          <p class="project-desc">
+            Merancang alur pengalaman pengguna lengkap untuk aplikasi belanja fashion, mulai dari autentikasi, katalog produk, detail varian warna &amp; ukuran, keranjang, hingga proses checkout dan pembayaran. Dikerjakan sebagai tugas Praktikum Desain Grafis.
+          </p>
+
+          <div class="chip-row">
+            <span class="chip chip-mono">Figma</span>
+            <span class="chip chip-mono">UI/UX Design</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://www.figma.com/design/vjpm0yDPpqBeTEK5PdKXG3/Praktikum-4-Desain-Grafis-Tesa-Nurhadiyanti-24073123004" target="_blank" rel="noopener" class="link-btn">
+              <span aria-hidden="true">✎</span> Lihat desain
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="section-inner">
+      <p class="section-label">04 · Pengalaman</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-period">2025 — Mei 2026</div>
+            <h3>Bendahara</h3>
+            <p class="timeline-org">Himpunan Mahasiswa SOENUGA</p>
+            <ul class="timeline-list">
+              <li>Mengelola dana untuk kegiatan LDKO 2024</li>
+              <li>Membuat template spreadsheet untuk pencatatan kas dan keuangan organisasi</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-period">2023 — 2025</div>
+            <h3>Anggota</h3>
+            <p class="timeline-org">Himpunan Mahasiswa SOENUGA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <p class="section-label">05 · Kontak</p>
+      <h2 class="contact-title">Mari terhubung</h2>
+      <p class="contact-sub">Terbuka untuk kesempatan magang dan kolaborasi proyek.</p>
+
+      <div class="contact-grid">
+        <a href="mailto:tesanurhadiyanti20@gmail.com" class="contact-card">
+          <span aria-hidden="true" style="font-size: 22px;">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">tesanurhadiyanti20@gmail.com</span>
+        </a>
+        <a href="https://wa.me/6283146420389" target="_blank" rel="noopener" class="contact-card">
+          <span aria-hidden="true" style="font-size: 22px;">💬</span>
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">0831-4642-0389</span>
+        </a>
+        <a href="https://www.linkedin.com/in/tesa-nurhadiyanti-1ba179333" target="_blank" rel="noopener" class="contact-card">
+          <span aria-hidden="true" style="font-size: 22px;">in</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">Tesa Nurhadiyanti</span>
+        </a>
+        <a href="https://github.com/Tesa-jpg" target="_blank" rel="noopener" class="contact-card">
+          <span aria-hidden="true" style="font-size: 22px;">&lt;/&gt;</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">tesa-jpg</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Dirancang &amp; dibangun oleh Tesa Nurhadiyanti — 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
