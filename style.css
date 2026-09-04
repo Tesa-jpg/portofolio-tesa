@@ -143,11 +143,11 @@ ul { list-style: none; }
 /* Hero */
 .hero {
   position: relative;
-  min-height: 92vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 120px 32px 80px;
+  padding: 100px 32px 50px;
   max-width: 920px;
   margin: 0 auto;
   overflow: hidden;
@@ -266,7 +266,7 @@ ul { list-style: none; }
 }
 
 /* About */
-.about { padding: 100px 0; }
+.about { padding: 50px 0; }
 .about-text {
   font-size: 19px;
   line-height: 1.8;
@@ -283,7 +283,7 @@ ul { list-style: none; }
 }
 
 /* Skills */
-.skills { padding: 60px 0 100px; }
+.skills { padding: 30px 0 50px; }
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -340,7 +340,7 @@ ul { list-style: none; }
 .chip-mono { background: var(--bg-tertiary); color: var(--text-secondary); border: 1px solid var(--border-color); }
 
 /* Projects */
-.projects { padding: 60px 0 100px; }
+.projects { padding: 30px 0 50px; }
 .project-card {
   background: var(--bg-secondary);
   border: 1px solid var(--border-color);
@@ -436,6 +436,13 @@ ul { list-style: none; }
 .status-dot-design {
   background: var(--purple);
 }
+.project-status-work {
+  color: var(--teal);
+  background: var(--teal-tint);
+}
+.status-dot-work {
+  background: var(--teal);
+}
 .project-title {
   font-size: 28px;
   margin-bottom: 6px;
@@ -493,7 +500,7 @@ ul { list-style: none; }
 .contact-card span { font-family: 'JetBrains Mono', monospace; }
 
 /* Experience / Timeline */
-.experience { padding: 60px 0 100px; }
+.experience { padding: 30px 0 50px; }
 .timeline {
   position: relative;
   padding-left: 32px;
@@ -501,7 +508,7 @@ ul { list-style: none; }
 }
 .timeline-item {
   position: relative;
-  padding-bottom: 40px;
+  padding-bottom: 28px;
 }
 .timeline-item:last-child { padding-bottom: 0; }
 .timeline-marker {
@@ -552,7 +559,7 @@ ul { list-style: none; }
 }
 
 /* Contact */
-.contact { padding: 60px 0 120px; }
+.contact { padding: 30px 0 70px; }
 .contact-title {
   font-size: clamp(32px, 5vw, 44px);
   margin-bottom: 12px;
